@@ -83,6 +83,7 @@ nav ul {
   margin-top: 33px;
 }
 nav {
+  list-style: none;
 }
 .nav-item {
   padding: 14px;
@@ -133,7 +134,7 @@ span {
   background-color:rgb(247, 243, 243);
 }
 main {
-  height: 5000px;
+  height: 4800px;
   background: white;
 }
 #slider {
@@ -334,7 +335,7 @@ h1{
 }
 .head{
   background: #f4f3f3;
-  height: 210px;
+  height: 180px;
 }
 .row-context{
     width: 80%;
@@ -353,6 +354,9 @@ h1{
   color: gray;
   font-family: none;
   font-size: large;
+}
+h3{
+  font-family: sans-serif;
 }
 .fa-users{
   font-size: x-large;
@@ -441,7 +445,7 @@ border-bottom: 2px solid rgb(241, 239, 239);
 }
 h4{
   font-size: larger;
-  font-family: inherit;
+  font-family: sans-serif;
 }
 .pp-text{
   font-size: larger;
@@ -560,11 +564,6 @@ width: 100%;
   justify-content: space-around;
   padding: 30px;
   border-top: 1px solid #dcd5d563;
-
-}
-.col-1{
-  display: flex;
-  flex-direction: column;
 }
 .input1{
   width: 250px;
@@ -578,11 +577,11 @@ width: 100%;
 }
 .input2{
   width: 525px;
-    border-radius: 4px;
-    border: 1px solid #d2d1d1;
-    margin-top: 40px;
-    height: 35px;
-    padding-left: 7px;
+  border-radius: 4px;
+  border: 1px solid #d2d1d1;
+  margin-top: 40px;
+  height: 35px;
+  padding-left: 7px;
 }
 .textera{
   margin-top: 40px;
@@ -591,7 +590,6 @@ width: 100%;
   border-radius: 4px;
   height: 250px;
   padding: 7px 10px;
-
 }
 .input3{
   background-color: black;
@@ -599,14 +597,43 @@ width: 100%;
   width: 70px;
   height: 40px;
   border-radius: 5px;
-  margin: 16px;
   border: 1px solid black;
-  
+  margin-top: 12px;
 }
-
-
-
-
+.part3{
+  color: #5c5b5b;
+}
+.part2{
+  width: 40%;
+  color: #5c5b5b;
+}
+.contact{
+  padding: 27px 0px;
+  margin-bottom: 5px;
+}
+.super-nav{
+  line-height: 2.5;
+  color: #282a2ccf;
+  font-size: larger;
+  font-style: italic;
+}
+.fa-building{
+  color: blueviolet;
+}
+.fa-building:hover{
+  color: rgba(201, 98, 175, 0.979);
+  transform: scale(1.4);
+}
+.fa-map-marker-alt{
+  color: blueviolet;
+}
+.fa-map-marker-alt:hover{
+  color: rgba(201, 98, 175, 0.979);
+  transform: scale(1.4);
+}
+.brands{
+  padding-top: 30px;
+}
 
 footer {
   height: 300px;
